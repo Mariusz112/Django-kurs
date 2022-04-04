@@ -19,3 +19,4 @@ def meetup_details(request, meetup_slug):
         return render(request, 'meetups/meetup-details.html', {
             'meetup_found': False
         })
+        
